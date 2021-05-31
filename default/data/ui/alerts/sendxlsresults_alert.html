@@ -1,0 +1,48 @@
+<form class="form-horizontal form-complex">
+  <div>Send results as XLS file to recipients<br/><br/></div>
+  <div class="control-group">
+      <label class="control-label" for="sendxlsresults_sender">Sender</label>
+      <div class="controls">
+          <input type="text" name="action.sendxlsresults_alert.param.sender" id="sendxlsresults_sender" />
+          <span class="help-block">
+            Overrides default sender address (Optional)
+          </span>
+      </div>
+  </div>
+  <div class="control-group">
+      <label class="control-label" for="sendxlsresults_recipient">Recipient</label>
+      <div class="controls">
+          <input type="text" name="action.sendxlsresults_alert.param.recipient" id="sendxlsresults_recipient" />
+          <span class="help-block">
+            Specify recipient ( to: )
+          </span>
+      </div>
+  </div>
+  <div class="control-group">
+      <label class="control-label" for="sendxlsresults_subject">Subject</label>
+      <div class="controls">
+          <input type="text" name="action.sendxlsresults_alert.param.subject" id="sendxlsresults_subject" />
+          <span class="help-block">
+            Specify the subject of the mail
+          </span>
+      </div>
+  </div>
+  <div class="control-group">
+      <label class="control-label" for="sendxlsresults_filename">Filename</label>
+      <div class="controls">
+          <input type="text" name="action.sendxlsresults_alert.param.filename" id="sendxlsresults_filename" />
+          <span class="help-block">
+            Example: thisfile.xls
+          </span>
+      </div>
+  </div>
+  <div class="control-group">
+      <label class="control-label" for="sendxlsresults_body">Message Body</label>
+      <div class="controls">
+          <textarea name="action.sendxlsresults_alert.param.body" id="sendxlsresults_body" style="height: 120px;"></textarea>
+          <span class="help-block">
+              Specify the body of the mail
+          </span>
+      </div>
+  </div>
+</form>
